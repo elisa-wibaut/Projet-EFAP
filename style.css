@@ -1,0 +1,477 @@
+body{
+  margin: 0;
+  font-family: 'roboto',sans-serif;
+
+}
+
+.banner {
+  background-image: url("image/rpho-bo-vietnamienistock-662f448cc16dd.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 620px;
+ 
+  
+  
+  
+
+}
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px;
+  position: relative;
+}
+
+.logo img {
+  height: 50px; /* adapte la taille à ton design */
+  width: auto;
+}
+
+.menu{
+
+
+}
+
+.btn {
+  display: inline-block;
+  background-color: #c22e2e;
+  color: #fff;
+  padding: 10px 5px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 11px;
+  font-family: Roboto;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border: none;
+  width: 100px;
+  margin-top: 15px;
+
+
+}
+.hero-text{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;   /* centre horizontalement */
+  align-items: center;       /* centre verticalement */
+  text-align: center;
+  padding: 0 20px;
+  position: relative;
+  top: 1px; /* décale un peu vers le bas si besoin */
+}
+
+.hero-text h1 {
+  font-family: 'Roboto', serif;
+  font-size: 75px;
+  font-weight: bold;
+  color: #de4040;
+  line-height: 1.2;
+}
+
+.hero-subtitle {
+  font-family: 'Roboto', serif;
+  font-size: 40px;
+  color: #de4040;
+  margin-top: 15px;       /* espace au-dessus */
+  line-height: 0.2;
+}
+
+.hero-tagline{
+   font-family: 'Roboto', serif;
+  font-size: 38px;
+   font-weight: bold;
+  color: #de4040;
+  margin-top: 35px; 
+
+}
+
+.hero-text img{
+  height: 100px;
+  width: 100px;
+
+}
+
+
+.services{
+  padding: 40px 20px;
+  text-align: center; /* ça centre le texte */
+  color: #de4040;
+  font-family: 'Roboto', serif;
+
+}
+
+.about {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 12%;
+  background-color: #fdf8e3;
+  flex-wrap: wrap;
+  gap: 80px;
+}
+
+.about-text {
+  flex: 1;
+  max-width: 600px;
+}
+
+.small-title {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.about-text h2 {
+  font-family: 'Roboto', serif;
+  font-size: 48px;
+  margin: 10px 0;
+  color: #de4040;
+}
+
+.description {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.about-link {
+  font-size: 16px;
+  color: #000;
+  text-decoration: underline;
+  font-weight: 500;
+}
+
+.about-image {
+  flex: 1;
+  text-align: right;
+}
+
+.about-image img {
+   max-width: 95%;
+  height: auto;
+  border-top-left-radius: 300px;
+  border-top-right-radius: 300px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  display: block;
+}
+
+.packages-section {
+  background-color: #fff;
+  padding: 70px 10px;
+  font-family: 'Roboto', serif;
+  margin-left: 80px;
+}
+
+.packages-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.packages-image {
+  flex: 1;
+  min-width: 300px;
+  padding: 20px;
+}
+
+.packages-image img {
+  width: 120%;
+  height: 450px;
+  display: block;
+  justify-content: center;
+
+}
+
+.packages-content {
+  flex: 1;
+  min-width: 280px;
+  padding: 20px;
+  color: #de4040;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.packages-intro {
+  font-size: 14px;
+  margin-bottom: 20px;
+  margin-left: 80px;
+}
+
+.packages-title {
+  font-size: 50px;
+  line-height: 1.4;
+  margin-bottom: 30px;
+  font-weight: 500;
+  margin-left: 80px;
+}
+
+.packages-link {
+  font-size: 16px;
+  color: #de4040;
+  text-decoration: none;
+  border-bottom: 1px solid #de4040;
+  padding-bottom: 3px;
+  transition: all 0.3s ease;
+  margin-left: 80px;
+}
+
+.packages-link:hover {
+  color: #a82f2f;
+  border-color: #a82f2f;
+}
+
+.wedding-section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+  height: 850px;
+}
+
+.wedding-image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 12px;
+  box-shadow: 0 4px 2px rgba(0,0,0,0.1);
+}
+
+
+h2 {
+  margin: 0;
+
+  
+
+}
+
+.testimonial-section {
+  background-color: #fffbdc;
+  padding: 60px 20px;
+}
+
+.testimonial-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.testimonial-text {
+  flex: 1;
+  max-width: 500px;
+}
+
+.testimonial-text h3 {
+  color: #f25e5e;
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.testimonial-text p {
+  font-family: 'Georgia', serif;
+  font-size: 1.1rem;
+  line-height: 1.8;
+}
+
+.testimonial-images-nav {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+
+.testimonial-images {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.image-with-nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.testimonial-img {
+  width: 300px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.testimonial-nav {
+  margin-top: 15px;
+}
+
+.nav-button {
+  background-color: #f25e5e;
+  border: none;
+  color: white;
+  font-size: 1.5rem;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  margin: 0 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.nav-button:hover {
+  background-color: #d94d4d;
+}
+
+.wedding-stories {
+  padding: 80px 20px;
+  text-align: center;
+  background-color: #fffbdc;
+}
+
+.wedding-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 48px;
+  color: #d24141;
+  margin-bottom: 60px;
+}
+
+.wedding-cards {
+  
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.wedding-card {
+  max-width: 320px;
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+}
+
+.wedding-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.wedding-card h3 {
+  font-size: 24px;
+  color: #de4040;
+  margin-bottom: 15px;
+}
+
+.wedding-card p {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.wedding-card a {
+  font-size: 16px;
+  color: black;
+  text-decoration: underline;
+  transition: color 0.3s ease;
+}
+
+.wedding-card a:hover {
+  color: #c22e2e;
+}
+
+.site-footer {
+  background-color: #fdf8e3;
+  padding: 60px 20px 30px;
+  font-family: 'Playfair Display', serif;
+  color: #333;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.footer-column {
+  flex: 1;
+  min-width: 200px;
+}
+
+.footer-column h3 {
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: #c63d3d;
+  margin-left: 120px;
+
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-left: 120px;
+}
+
+.footer-column ul li {
+  margin-bottom: 10px;
+}
+
+.footer-column ul li a {
+  text-decoration: none;
+  color: #333;
+  transition: color 0.3s;
+}
+
+.footer-column ul li a:hover {
+  color: #c63d3d;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 14px;
+  color: #666;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #c22e2e;
+  color: #fafafa;
+  padding: 10px 5px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 11px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border: none;
+  width: 100px;
+  margin-top: 15px;
+}
+
+
+ .email{
+  margin-right: 300px;
+  width: 345px;
+  margin-top: 25px;
+ }
+
