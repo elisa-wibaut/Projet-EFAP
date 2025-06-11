@@ -27,7 +27,7 @@ body{
 .logo img {
   height: 50px; /* adapte la taille à ton design */
   width: auto;
-  margin-top: 15px
+  
 }
 
 .menu{
@@ -92,7 +92,7 @@ body{
 .hero-text img{
   height: 90px;
   width: 120px;
-  margin-top: 15px
+  margin-top: 5px
   
   
 
