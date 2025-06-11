@@ -27,6 +27,7 @@ body{
 .logo img {
   height: 50px; /* adapte la taille à ton design */
   width: auto;
+  margin-top: 15px
 }
 
 .menu{
