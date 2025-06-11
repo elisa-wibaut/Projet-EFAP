@@ -65,7 +65,7 @@ body{
 
 .hero-text h1 {
   font-family: 'Roboto', serif;
-  font-size: 25px;
+  font-size: 55px;
   font-weight: bold;
   color: #de4040;
   line-height: 1.2;
@@ -81,7 +81,7 @@ body{
 
 .hero-tagline{
    font-family: 'Roboto', serif;
-  font-size: 38px;
+  font-size: 28px;
    font-weight: bold;
   color: #de4040;
   margin-top: 35px; 
