@@ -60,7 +60,7 @@ body{
   text-align: center;
   padding: 0 20px;
   position: relative;
-  top: 6px; /* décale un peu vers le bas si besoin */
+  top: 8px; /* décale un peu vers le bas si besoin */
 }
 
 .hero-text h1 {
